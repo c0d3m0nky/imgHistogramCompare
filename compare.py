@@ -128,4 +128,5 @@ def histogram_grouping():
                     pbar.update()
 
 
-histogram_grouping()
+if __name__ == "__main__":
+    histogram_grouping()

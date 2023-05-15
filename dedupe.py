@@ -84,4 +84,5 @@ def dedupe():
         di += 1
 
 
-dedupe()
+if __name__ == "__main__":
+    dedupe()
